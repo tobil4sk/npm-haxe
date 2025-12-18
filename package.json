@@ -40,8 +40,7 @@
   ],
   "engines" : { "node" : ">=16.7.0" },
   "dependencies": {
-    "download": "7.1.0",
-    "download-status": "2.2.1"
+    "download": "7.1.0"
   },
   "haxeDependencies": {
     "haxe": "3.4.7",
