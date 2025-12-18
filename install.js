@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 var os = require('os');
-var fsx = require('fs-extra');
 var fs = require('fs');
 var path = require('path');
 var packageConfig = require('./lib/package-config');

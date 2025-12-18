@@ -2,14 +2,14 @@
 console.log("start test");
 
 var assert = require('assert');
-var fsx = require('fs-extra');
+var fs = require('fs');
 var haxe = require('haxe').haxe;
 var haxelib = require('haxe').haxelib;
 var neko = require('haxe').neko;
 
-assert.ok(fsx.pathExistsSync("node_modules/haxe/downloads/haxe/std/Any.hx"))
-assert.ok(fsx.pathExistsSync("node_modules/haxe/downloads/haxelib/haxelib.json"))
-assert.ok(fsx.pathExistsSync("node_modules/haxe/downloads/neko/README.md"))
+assert.ok(fs.existsSync("node_modules/haxe/downloads/haxe/std/Any.hx"))
+assert.ok(fs.existsSync("node_modules/haxe/downloads/haxelib/haxelib.json"))
+assert.ok(fs.existsSync("node_modules/haxe/downloads/neko/README.md"))
 
 assert.ok(haxe);
 assert.ok(haxelib);
